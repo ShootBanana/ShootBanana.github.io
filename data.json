@@ -1,0 +1,15 @@
+{
+    "roster": [
+        {"name": "John Doe", "position": "Guard", "number": 3},
+        {"name": "Mike Smith", "position": "Forward", "number": 7},
+        {"name": "Alex Johnson", "position": "Center", "number": 12}
+    ],
+    "results": [
+        {"opponent": "Team A", "score": "78-65", "outcome": "Win"},
+        {"opponent": "Team B", "score": "62-70", "outcome": "Loss"}
+    ],
+    "schedule": [
+        {"opponent": "Team C", "date": "2025-04-05", "time": "18:00"},
+        {"opponent": "Team D", "date": "2025-04-12", "time": "20:00"}
+    ]
+}
