@@ -56,12 +56,12 @@ section {
 
 
 .hero {
-    background: url('hero.jpg') center/cover;
+    background-color: var(--secondary-color);
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--secondary-color);
+    color: white;
     text-align: center;
     flex-direction: column;
 }
