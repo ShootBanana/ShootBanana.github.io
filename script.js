@@ -1,41 +1,41 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function() {
     fetch("data.json")
         .then(response => response.json())
         .then(data => {
-            loadRoster(data.roster);
-            loadResults(data.results);
-            loadSchedule(data.schedule);
-        })
-        .catch(error => console.error("Error loading data:", error));
+            populateRoster(data.roster);
+            populateResults(data.results);
+            populateSchedule(data.schedule);
+        });
 });
 
-function loadRoster(roster) {
+function populateRoster(roster) {
     const rosterDiv = document.getElementById("players");
     rosterDiv.innerHTML = "";
     roster.forEach(player => {
-        const playerItem = document.createElement("p");
-        playerItem.textContent = `#${player.number} ${player.name} - ${player.position}`;
-        rosterDiv.appendChild(playerItem);
+        const playerCard = document.createElement("div");
+        playerCard.className = "player-card";
+        playerCard.innerHTML = `<strong>#${player.number} ${player.name}</strong> - ${player.position}`;
+        rosterDiv.appendChild(playerCard);
     });
 }
 
-function loadResults(results) {
-    const resultsDiv = document.getElementById("game-results");
-    resultsDiv.innerHTML = "";
+function populateResults(results) {
+    const resultsTable = document.querySelector("#game-results tbody");
+    resultsTable.innerHTML = "";
     results.forEach(game => {
-        const resultItem = document.createElement("p");
-        resultItem.textContent = `${game.opponent}: ${game.score} (${game.outcome})`;
-        resultsDiv.appendChild(resultItem);
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${game.date}</td><td>${game.opponent}</td><td>${game.score}</td><td>${game.outcome}</td>`;
+        resultsTable.appendChild(row);
     });
 }
 
-function loadSchedule(schedule) {
-    const scheduleDiv = document.getElementById("schedule");
-    scheduleDiv.innerHTML = "";
+function populateSchedule(schedule) {
+    const scheduleList = document.getElementById("schedule-list");
+    scheduleList.innerHTML = "";
     schedule.forEach(game => {
-        const scheduleItem = document.createElement("p");
-        scheduleItem.textContent = `${game.date} - ${game.opponent} at ${game.time}`;
-        scheduleDiv.appendChild(scheduleItem);
+        const listItem = document.createElement("li");
+        listItem.textContent = `${game.date} - ${game.opponent} (${game.location})`;
+        scheduleList.appendChild(listItem);
     });
 }
 
