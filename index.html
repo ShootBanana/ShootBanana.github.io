@@ -1,96 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoot Banana - Official Site</title>
+    <title>Shoot Banana</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo"> <img src="logo.png" alt="Shoot Banana Logo"> </div>
+        <h1>Shoot Banana</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#roster">Roster</a></li>
                 <li><a href="#results">Results</a></li>
                 <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#comments">Community</a></li>
+                <li><a href="#comments">Comments</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#merch">Shop</a></li>
+                <li><a href="#merch">Merch</a></li>
             </ul>
         </nav>
-    </header>
+    </header><section id="roster">
+    <h2>Team Roster</h2>
+    <div id="players"></div>
+</section>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Shoot Banana</h1>
-            <p>Your #1 source for team news, highlights, and merchandise.</p>
-            <a href="#schedule" class="cta-button">View Schedule</a>
-        </div>
-    </section>
+<section id="results">
+    <h2>Game Results</h2>
+    <div id="game-results"></div>
+</section>
 
-    <section id="roster">
-        <h2>Team Roster</h2>
-        <div id="players"></div>
-    </section>
-    
-    <section id="results">
-        <h2>Game Results</h2>
-        <div id="game-results"></div>
-    </section>
-    
-    <section id="schedule">
-        <h2>Game Schedule</h2>
-        <div id="schedule"></div>
-    </section>
+<section id="schedule">
+    <h2>Game Schedule</h2>
+    <div id="schedule"></div>
+</section>
 
+<section id="comments">
+    <h2>Comments</h2>
+    <ul id="comment-list"></ul>
+    <input type="text" id="comment-input" placeholder="Add a comment">
+    <button onclick="addComment()">Submit</button>
+</section>
 
-    <section id="comments">
-        <h2>Fan Community</h2>
-        <div class="comment-section">
-            <ul id="comment-list"></ul>
-            <input type="text" id="comment-input" placeholder="Join the discussion...">
-            <button onclick="addComment()">Submit</button>
-        </div>
-    </section>
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="img1.jpg" class="active">
+        <img src="img2.jpg">
+        <img src="img3.jpg">
+    </div>
+</section>
 
-    <section id="gallery">
-        <h2>Photo Gallery</h2>
-        <div class="gallery-slider">
-            <img src="img1.jpg" class="active">
-            <img src="img2.jpg">
-            <img src="img3.jpg">
-        </div>
-    </section>
+<section id="videos">
+    <h2>Highlights</h2>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
 
-    <section id="videos">
-        <h2>Highlights</h2>
-        <div class="video-gallery">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </section>
+<section id="merch">
+    <h2>Merchandise</h2>
+    <div class="merch-grid">
+        <div class="merch-item">Jersey - Call: 123-456-7890</div>
+        <div class="merch-item">Cap - Call: 123-456-7890</div>
+    </div>
+</section>
 
-    <section id="merch">
-        <h2>Official Merchandise</h2>
-        <div class="merch-grid">
-            <div class="merch-item">
-                <img src="jersey.jpg" alt="Jersey">
-                <p>Official Team Jersey</p>
-                <button>Buy Now</button>
-            </div>
-            <div class="merch-item">
-                <img src="cap.jpg" alt="Cap">
-                <p>Team Cap</p>
-                <button>Buy Now</button>
-            </div>
-        </div>
-    </section>
+<footer>
+    <p>&copy; 2025 Shoot Banana</p>
+</footer>
 
-    <footer>
-        <p>&copy; 2025 Shoot Banana | <a href="#">Privacy Policy</a> | Follow us on <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
-    </footer>
+<script src="script.js"></script>
 
-    <script src="script.js"></script>
 </body>
 </html>
