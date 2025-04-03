@@ -1,19 +1,15 @@
 {
     "roster": [
-        { "name": "John Doe", "position": "Point Guard", "number": 7 },
-        { "name": "Mike Smith", "position": "Shooting Guard", "number": 23 },
-        { "name": "Alex Johnson", "position": "Small Forward", "number": 12 },
-        { "name": "Chris Evans", "position": "Power Forward", "number": 34 },
-        { "name": "James Brown", "position": "Center", "number": 50 }
+        {"name": "John Doe", "position": "Guard", "number": 3},
+        {"name": "Mike Smith", "position": "Forward", "number": 7},
+        {"name": "Alex Johnson", "position": "Center", "number": 12}
     ],
     "results": [
-        { "date": "2025-03-01", "opponent": "Blue Tigers", "score": "102-95", "outcome": "Win" },
-        { "date": "2025-03-08", "opponent": "Red Hawks", "score": "87-92", "outcome": "Loss" },
-        { "date": "2025-03-15", "opponent": "Golden Eagles", "score": "110-105", "outcome": "Win" }
+        {"opponent": "Team A", "score": "78-65", "outcome": "Win"},
+        {"opponent": "Team B", "score": "62-70", "outcome": "Loss"}
     ],
     "schedule": [
-        { "date": "2025-03-22", "opponent": "Green Giants", "location": "Home" },
-        { "date": "2025-03-29", "opponent": "Silver Wolves", "location": "Away" },
-        { "date": "2025-04-05", "opponent": "Black Panthers", "location": "Home" }
+        {"opponent": "Team C", "date": "2025-04-05", "time": "18:00"},
+        {"opponent": "Team D", "date": "2025-04-12", "time": "20:00"}
     ]
 }
