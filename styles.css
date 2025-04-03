@@ -45,6 +45,16 @@ nav ul li a {
     font-weight: bold;
 }
 
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 .hero {
     background: url('hero.jpg') center/cover;
     height: 400px;
