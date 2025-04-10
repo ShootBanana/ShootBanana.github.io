@@ -1,15 +1,24 @@
 {
-    "roster": [
-        {"name": "John Doe", "position": "Guard", "number": 3},
-        {"name": "Mike Smith", "position": "Forward", "number": 7},
-        {"name": "Alex Johnson", "position": "Center", "number": 12}
-    ],
-    "results": [
-        {"opponent": "Team A", "score": "78-65", "outcome": "Win"},
-        {"opponent": "Team B", "score": "62-70", "outcome": "Loss"}
-    ],
-    "schedule": [
-        {"opponent": "Team C", "date": "2025-04-05", "time": "18:00"},
-        {"opponent": "Team D", "date": "2025-04-12", "time": "20:00"}
-    ]
+  "roster": [
+    { "name": "Player 1", "position": "Guard" },
+    { "name": "Player 2", "position": "Forward" },
+    { "name": "Player 3", "position": "Center" }
+  ],
+  "merchandise": [
+    { "name": "T-Shirt", "price": 20 },
+    { "name": "Hoodie", "price": 40 }
+  ],
+  "results": [
+    { "date": "2025-04-01", "score": "80-70", "opponent": "Team A" },
+    { "date": "2025-04-08", "score": "90-85", "opponent": "Team B" }
+  ],
+  "nextMatch": {
+    "date": "2025-04-15",
+    "opponent": "Team C"
+  },
+  "youtubeHighlights": "basketakicom",
+  "comments": [
+    { "author": "Fan 1", "text": "Great game!" },
+    { "author": "Fan 2", "text": "Awesome team!" }
+  ]
 }
