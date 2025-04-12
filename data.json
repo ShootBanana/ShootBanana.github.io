@@ -1,8 +1,49 @@
 {
     "roster": [
-        {"name": "John Doe", "position": "Guard", "number": 3},
-        {"name": "Mike Smith", "position": "Forward", "number": 7},
-        {"name": "Alex Johnson", "position": "Center", "number": 12}
+        
+{"name": "Βλαχόπουλος Αλέξανδρος", "position": "Guard", "number": 13}
+{"name": "Καραβίας Γιώ. Επαμεινώνδας", "position": "Guard", "number": 53}
+
+{"name": "Κουζέλης Βασ. Ευστάθιος", "position": "Guard", "number": 43}
+
+{"name": "Μιχαηλίδης Κων. Αντώνιος", "position": "Guard", "number": 33}
+
+{"name": "Μπουλές Ιωά. Απόστολος", "position": "Guard", "number": 83}
+
+{"name": "Μπουλές Χρή. Γεώργιος", "position": "Guard", "number": 53}
+
+{"name": "Νικολόπουλος Κων. Πέτρος", "position": "Guard", "number": 33}
+
+{"name": "Ντόβολος Ευά. Σεραφείμ", "position": "Guard", "number": 31}
+
+{"name": "Πανταζής Κων. Παναγιώτης", "position": "Guard", "number": 39}
+
+{"name": "Πανταζής Κων. Σωτήριος", "position": "Guard", "number": 53}
+
+{"name": "Παπαδόπουλος Χρή. Μάριος", "position": "Guard", "number": 35}
+
+{"name": "Παπαϊωάννου Παν. Γεώργιος", "position": "Guard", "number": 34}
+
+{"name": "Πρόδρομος Μιχ. Αριστείδης", "position": "Guard", "number": 53}
+
+{"name": "Σκαφίδας Κων. Μηνάς", "position": "Guard", "number": 35}
+
+{"name": "Σωτηρίου Βασ. Γεώργιος", "position": "Guard", "number": 53}
+
+{"name": "Τακβοριάν Τορ. Ντανιελ", "position": "Guard", "number": 35}
+
+{"name": "Ταμιωλάκης Αντ. Πάρις", "position": "Guard", "number": 53}
+
+{"name": "Τσουραπάς Γεώ. Ευάγγελος", "position": "Guard", "number": 35}
+
+{"name": "Φραγκούλης Αντ. Ιωάννης", "position": "Guard", "number": 43}
+
+{"name": "Χαλκής Γεώ. Απόστολος", "position": "Guard", "number": 31}
+
+Χρυσοβέργης Παν. Αθανάσιος", "position": "Guard", "number": 39}
+
+
+
     ],
     "results": [
         {"opponent": "Team A", "score": "78-65", "outcome": "Win"},
